@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <style>
+      body {
+        margin: 0;
+        padding: 8px;
+        width: 300px;
+        box-sizing: border-box;
+        border: 3px solid #F8AC32 ;
+        text-align: center;
+        font-size: 0.85em;
+        background-color: black;
+        background-image: radial-gradient(
+            white,
+            rgba(255, 255, 255, 0.2) 2px,
+            transparent 40px
+          ),
+          radial-gradient(
+            white,
+            rgba(255, 255, 255, 0.15) 1px,
+            transparent 30px
+          ),
+          radial-gradient(white, rgba(255, 255, 255, 0.1) 2px, transparent 40px),
+          radial-gradient(
+            rgba(255, 255, 255, 0.4),
+            rgba(255, 255, 255, 0.1) 2px,
+            transparent 30px
+          );
+        background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+        background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+
+        color: white;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          color: white;
+          background: rgb(27, 27, 35);
+        }
+      }
+    </style>
+    <script type="module" src="popup.js"></script>
+  </head>
+
+  <body>
+    <extension-popup></extension-popup>
+
+    <a href="https://forms.office.com/r/B5m8YSXWCL" target="_blank"  style ="color: #D1912A;">Please Give Your FeedBack</a>
+  </body>
+</html>
